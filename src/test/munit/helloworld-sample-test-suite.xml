@@ -16,7 +16,7 @@
 			<flow-ref doc:name="Flow-ref to helloworld-sampleFlow" doc:id="2fa4cd8e-5384-4c20-b807-38bd714f689e" name="helloworld-sampleFlow"/>
 		</munit:execution>
 		<munit:validation>
-			<munit-tools:assert-that doc:name="Assert that" doc:id="8b013935-6e0e-4d54-a695-9f8547259b86" is="#[MunitTools::notNullValue()]" expression="#[payload]"/>
+			<munit-tools:assert-that doc:name="Assert that" doc:id="8b013935-6e0e-4d54-a695-9f8547259b86" is="#[MunitTools::notNullValue()]" expression="#[null]"/>
 		</munit:validation>
 	</munit:test>
 
