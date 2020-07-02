@@ -22,3 +22,9 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v2.1.0
+      with:
+        node-version: 12.x
+    - name: Install Anypoint CLI
+      run: npm install -g anypoint-cli@latest
