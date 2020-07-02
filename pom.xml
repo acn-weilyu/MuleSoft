@@ -27,7 +27,7 @@
                   <muleVersion>4.2.1</muleVersion>
                   <username>${username}</username>
                   <password>${password}</password>
-                  <applicationName>helloworld-sample</applicationName>
+                  <applicationName>helloworld-sample-roi</applicationName>
                   <environment>Sandbox</environment>
                   <workerType>MICRO</workerType>
                   <objectStoreV2>true</objectStoreV2>
