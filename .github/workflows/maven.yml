@@ -19,4 +19,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build, Test and Deploy to CloudHub if no problems
-      run: mvn clean deploy -DmuleDeploy -Dusername=${{secrets.USERNAME}} -Dpassword=${{secrets.PASSWORD}}
+      run: mvn clean deploy -e -DmuleDeploy -Dusername=${{secrets.USERNAME}} -Dpassword=${{secrets.PASSWORD}}
